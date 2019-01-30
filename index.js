@@ -1,3 +1,5 @@
+'use strict';
+
 const net = require('net');
 const events = require('events');
 const SOCKET_PATH = "/var/run/pi-buttons.sock";
